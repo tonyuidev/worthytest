@@ -7,7 +7,7 @@ function SearchInput(props: any) {
   };
 
   return (
-    <div>
+    <div className="input-wrapper">
       <input type="text" onChange={searchTrigger} autoFocus={props.focus}/>
     </div>
   );
